@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#0B226D">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <title>Bicycles</title>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="shortcut icon" href="favicons/icon-192x192.png">
+</head>
+
+<body>
+    <!-- NABVAR -->
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <button aria-label="Menu" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Firma</a>
+                <a href="#" class="nav-item nav-link">Produkty</a>
+                <a href="#" class="nav-item nav-link">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+    <!--TABLE-->
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col">
+                <h1>ROWER</h1>
+                <h3>Pojazd napedzany sila ludzkich miesni</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4>MENU</h4>
+            </div>
+        </div>
+        <!--UNDER MENU-->
+        <div class="row">
+            <div class="col-md-4"><b>Definicja roweru</b>
+                <p></p>
+                <p>Rower – jedno- lub wielośladowy pojazd drogowy napędzany
+                    siłą mięśni poruszających się nim osób za pomocą przekładni mechanicznej, wprawianej w ruch (najczęściej) nogami.</p>
+                <p>
+                    Pierwotnie nosił nazwę welocyped oraz bicykl i podobnie nazywany jest w większości nowożytnych języków europejskich.
+                    Obecna polska nazwa pochodzi od brytyjskiej firmy Rover, która dawniej produkowała rowery.
+                </p>
+            </div>
+
+
+            <div id="bicycles" class="col-md-8"><b>Rodzaje rowerow</b>
+                <p>Rower szosowy</p>
+                <div class="photo"><img src="img/szosowy.jpg" class="img-fluid" alt="Szosowy"></div>
+                <p>Sportowy rower, dostosowywany przede wszystkim do jazdy na twardej drodze.
+                    Zgodnie z zasadami UCI do zawodów szosowych są dopuszczane tylko pionowe rowery o obu kołach tej samej średnicy
+                    (najczęściej 650 lub 700c) z klasycznym układem napędowym, oraz klasyczną ramą.</p>
+
+
+                <p>Rower towarowy</p>
+                <div class="photo"><img src="img/towarowy.jpg" class="img-fluid" alt="Towarowy"></div>
+                <p></p>
+                <p>Rodzaj roweru o szerokości nie przekraczającej 90 cm, zbudowany lub przystosowany do przewozu towarów lub osób. Rowery towarowe są współcześnie popularnym środkiem transportu w krajach takich jak Dania, Holandia czy Niemcy.
+                    Roweru towarowego nie należy mylić z rikszą, która po pierwsze służy wyłącznie do przewozu osób, a po drugie jej szerokość zwykle przekracza 90 cm (zgodnie z polskim prawem jest to wtedy wózek rowerowy, któremu nie wolno korzystać
+                    z infrastruktury przeznaczonej rowerzystom).</p>
+
+
+                <p>Rower torowy</p>
+                <div class="photo"><img id="image" src="img/torowy.jpg" class="img-fluid" alt="Torowy"></div>
+                <p>Lekki rower na kołach o średnicy 28 cali (w jeździe na czas używa się kół o pomniejszonej średnicy ok. 26 cali) służący do ścigania się po specjalnie przygotowanych torach zwanych welodromami, przypominających bieżnię
+                    lekkoatletyczną. Taką konkurencję nazywa się kolarstwem torowym.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
